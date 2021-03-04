@@ -6,11 +6,7 @@ pipeline {
     agent {
       node {
         //TODO: Add label for Node.js jenkins agent
-        agent { 
-          node {
             label 'nodejs'
-          } 
-        }
       }
     }
 
